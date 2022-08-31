@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Projeto 3</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecalho">
+              <h1 style="margin-left:21px;padding-top:8px;">DrivenEats</h1>
+              <h2 style="margin-left:21px;padding-top:5px">Sua comida em 6 minutos</h2>
+      </div>
+      <h2 style="color:#333333;font-size:26px;font-family:'Righteous', cursive; margin-top: 31px; margin-left:19px;">Primeiro, seu prato</h2>
+      <div class="primeiroprato" onclick="escolher('primeiroprato')">
+          <div class="pratoum" onclick="selecionarcomida('pratoum')"   style="margin-left:19px">
+              <img src="frango_yin_yang 1.svg" />
+              <p style="margin-top:8px" class="nomedocardapio">Frango Yin Yang</p>
+              <p style="margin-top:4px" class="p2">Um pouco de batata,</p>
+              <p class="p3">Um pouco de salada</p>
+              <p style="margin-top:5px" class="preco">R$ 14,90</p>
+          </div>
+          <div class="pratodois" onclick="selecionarcomida('pratodois')"  style="margin-left:16px">
+              <img src="frango_yin_yang 1.svg" />
+              <p style="margin-top:8px" class="nomedocardapio">Arroz e Feijão</p>
+              <p style="margin-top:4px" class="p2">Um pouco de batata,</p>
+              <p class="p3">Um pouco de salada</p>
+              <p style="margin-top:5px" class="preco">R$ 14,90</p>
+
+          </div>
+          <div class="pratotres" onclick="selecionarcomida('pratotres')" style="margin-left:16px">
+              <img src="frango_yin_yang 1.svg" />
+              <p style="margin-top:8px" class="nomedocardapio">Macarrão italiano</p>
+              <p style="margin-top:4px" class="p2">Um pouco de batata,</p>
+              <p class="p3">Um pouco de salada</p>
+              <p style="margin-top:5px" class="preco">R$ 14,90</p>
+          </div>
+      </div>
+      <h2 style="color:#333333;font-size:26px;font-family:'Righteous', cursive; margin-top: 27px; margin-left:19px;">Agora, sua bebida</h2>
+      <div class="segundoprato" onclick="escolher('segundoprato')">
+        <div class="bebida1" onclick="selecionarbebida('bebida1')" style="margin-left:19px">
+            <img src="coquinha_gelada 1.svg" />
+            <p style="margin-top:8px" class="nomedocardapio">Coquinha gelada</p>
+            <p style="margin-top:4px" class="p2">Lata 350ml</p>
+            <p style="margin-top:5px" class="preco">R$ 4,90</p>
+        </div>
+        <div class="bebida2" onclick="selecionarbebida('bebida2')" style="margin-left:16px">
+            <img src="coquinha_gelada 1.svg" />
+            <p style="margin-top:8px" class="nomedocardapio">Guaraná</p>
+            <p style="margin-top:4px" class="p2">Lata 350ml</p>
+            <p style="margin-top:5px" class="preco">R$ 5,90</p>
+        </div>
+        <div class="bebida3" onclick="selecionarbebida('bebida3')" style="margin-left:16px">
+          <img src="coquinha_gelada 1.svg" />
+          <p style="margin-top:8px" class="nomedocardapio">Fanta</p>
+          <p style="margin-top:4px" class="p2">Lata 350ml</p>
+          <p style="margin-top:5px" class="preco">R$ 6,90</p>
+        </div>
+      </div>
+      <h2 style="color:#333333;font-size:26px;font-family:'Righteous', cursive; margin-top: 27px; margin-left:19px;">Por fim, sua sobremesa</h2>
+      <div class="terceiroprato" onclick="escolher('terceiroprato')">
+        <div class="sobremesa1" onclick="selecionarsobremesa('sobremesa1')" style="margin-left:19px">
+            <img src="pudim 1.svg" />
+            <p style="margin-top:8px" class="nomedocardapio">Pudim</p>
+            <p style="margin-top:4px" class="p2">Apenas pudim</p>
+            <p style="margin-top:5px" class="preco">R$ 7,90</p>
+        </div>
+        <div class="sobremesa2" onclick="selecionarsobremesa('sobremesa2')" style="margin-left:16px">
+          <img src="pudim 1.svg" />
+          <p style="margin-top:8px" class="nomedocardapio">Sorvete</p>
+            <p style="margin-top:4px" class="p2">Apenas pudim</p>
+            <p style="margin-top:5px" class="preco">R$ 5,90</p>
+        </div>
+        <div class="sobremesa3"  onclick="selecionarsobremesa('sobremesa3')" style="margin-left:16px">
+          <img src="pudim 1.svg" />
+          <p style="margin-top:8px" class="nomedocardapio">Torta</p>
+          <p style="margin-top:4px" class="p2">Apenas pudim</p>
+          <p style="margin-top:5px" class="preco">R$ 7,90</p>
+        </div>
+      </div>
+      <div class="rodape">
+        <button class="confirmacaopedido">
+          <p>Selecione os 3 itens <br>para fechar o pedido<br></p>
+        </button>
+      </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

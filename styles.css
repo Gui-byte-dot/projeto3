@@ -1,0 +1,295 @@
+body{
+    background: #EEEEEE;
+}
+.container{
+    position: absolute;
+    
+}
+.cabecalho{
+    width: 414px;
+    height: 92px;
+    background-color:#CF2B2B ;
+    color:#FFFFFF;
+}
+.cabecalho h1{
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+}
+.cabecalho h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.primeiroprato{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.segundoprato{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.terceiroprato{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.prato1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 172px;
+    height: 200px;
+    margin-top: 17px;
+    padding-left: 14px;
+    padding-top: 18px;
+    padding-right: 16px;
+}
+.pratoum{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 162px;
+    height: 190px;
+    margin-top: 14px;
+    padding-left: 16px;
+    padding-top: 18px;
+    padding-right: 16px;
+}
+.pratodois{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 162px;
+    height: 190px;
+    margin-top: 14px;
+    padding-left: 14px;
+    padding-top: 18px;
+    padding-right: 16px;
+
+}
+.pratotres{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 162px;
+    height: 190px;
+    margin-top: 14px;
+    padding-left: 14px;
+    padding-top: 18px;
+    padding-right: 16px;
+
+}
+.bebida1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 160px;
+     height: 170px;
+    margin-top: 17px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+
+}
+.bebida2{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 160px;
+    height: 170px;
+    margin-top: 17px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+
+}
+.bebida3{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 160px;
+    height: 170px;
+    margin-top: 17px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+
+}
+.sobremesa1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 160px;
+    height: 170px;
+    margin-top: 17px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+
+}
+.sobremesa2{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 160px;
+    height: 170px;
+    margin-top: 17px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+
+}
+.sobremesa3{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 160px;
+    height: 170px;
+    margin-top: 17px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+
+}
+.prato2{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 172px;
+    height: 175px;
+    margin-top: 17px;
+    padding-left: 14px;
+    padding-top: 18px;
+    padding-right: 14px;
+}
+.prato3{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 172px;
+    height: 175px;
+    margin-top: 17px;
+    padding-left: 14px;
+    padding-top: 18px;
+    padding-right: 14px;
+}
+.nomedocardapio{
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.p2{
+    font-size: 15px;
+    color:#A6A6A6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+
+}
+.p3{
+    font-size: 15px;
+    color:#A6A6A6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+.preco{
+    font-size: 16px;
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+
+}
+.cor{
+    border: 5px solid green;
+}
+ion-icon{
+    margin-left: 120px;
+    color: #32B72F;
+    margin-bottom: 40px;
+    position: relative;  
+}
+.rodape{
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 92px;
+    margin-top:16px;
+    width: 414px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rodape button{
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.confirmacaopedido{
+    background: #CBCBCB;
+}
+
+.corpedido{
+    background: #32B72F;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+    width:50px;
+    height: 500px;
+}
+br{
+    color:#FFFFFF;
+}
+.pedido{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.fundo{
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0.2;
+}
+.normal{
+    opacity: 1.0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#FFFFFF;
+    background-color: #50D074;
+    margin-top: 336px;
+    margin-left: 19px;
+    width: 377px;
+    height: 370px;
+    font-size: 22px;
+    border-radius: 9px;
+}
+.normal a{
+    flex-direction:row; 
+    width:280px;
+    margin-top:26px;
+    background-color:#FFFFFF;
+    color:#50D074;
+    height:45px;
+    border-radius:100px;
+     padding-left:90px;
+     padding-top:10px;
+     font-weight: 700;
+}
+.ajuste{
+    display: flex;
+    justify-content: left;
+}
+.escondido{
+    display: none;
+}
